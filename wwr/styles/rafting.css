@@ -56,14 +56,14 @@ h1 {
     text-align: center;
     opacity: 0.7;
     background-color: var(--accent1-color);
-    color: #aaa;
+    color: #ccc;
 }
 
 h2 {
     text-align: center;
     opacity: 0.7;
     background-color: var(--accent1-color);
-    color: #aaa;
+    color: #ccc;
 }
 
 .hero article img {
