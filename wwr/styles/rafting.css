@@ -120,6 +120,73 @@ footer {
     display:grid;
     grid-template-columns: 4fr 1fr;
 }
+
+/* ______________________________________________________________________*/
+
+.company-info {    
+    text-align: center;    
+}
+.company-info p {
+    margin: 0;
+    padding: .1rem;
+}
+form {
+    display: flex;
+    flex-direction: column;
+}
+.map-form {
+    display: flex;
+    flex-direction: row;    
+}
+
+.map-form div {
+    margin: .5rem;
+    padding: .5rem;
+}
+
+button {
+    margin: .5rem;
+    background-color: royalblue;
+    color: #fff;
+    border: none;
+    
+}
+.serve {
+  grid-column: span 2;
+  margin-top: 2rem;
+  padding: 1rem;
+  border: 1px solid #aaa;
+  background-color: #f7f7f7;
+}
+.serve h3 {
+  margin-bottom: 1rem;
+  font-weight: bold;
+}
+
+.employee-gallery {
+  display: flex;
+  justify-content: center;
+  gap: 2rem;
+}
+
+.employee-gallery figure {
+  text-align: center;
+}
+
+.employee-gallery img {
+  width: 120px;
+  height: 120px;
+  object-fit: cover;
+  border-radius: 6px;
+  border: 1px solid #ccc;
+}
+
+.employee-gallery figcaption {
+  margin-top: 0.5rem;
+  font-size: 0.9rem;
+}
+
+/*_______________________________________________________________________*/
 footer p {
   font-size: 0.75rem;  /* smaller than normal body text */
   margin: 0;           /* optional: remove extra space */

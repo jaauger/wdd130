@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us</title>
+    <meta name="Description" content="Jason Auger, WDD130, Contact Us page.">
+    <meta name="author" content="Jason Auger">
+    <link rel="stylesheet" href="styles/rafting.css">
+</head>
+
+<body>
+    <header>
+        <img src="images/z-raftingcompas-sm.jpg" alt="Company Logo">
+        <nav>
+            <ul class="navigation">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About Us</a></li>
+                <li><a href="trips.html">Trips</a></li>
+                <li><a href="contact.html">Contact Us</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section class="company-info">
+            <h3>Wild West River Rafting</h3>
+            <p>123 Main River Street</p>
+            <p>Kolob, California</p>
+            <p>+1 999 999 9999</p>
+            <p>info@wildwestriverrafting.com</p>
+        </section>
+        <div class="map-form">
+            <div>
+                <iframe
+                    src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d41968.05111308223!2d-109.63198183346113!3d38.573075604236706!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2sus!4v1759542902964!5m2!1sen!2sus"
+                    width="300" height="250" style="border:0;" allowfullscreen="" loading="lazy"
+                    referrerpolicy="no-referrer-when-downgrade">
+                </iframe>
+            </div>
+            <div>
+                <form>
+                    <label for="name">Name</label>
+                    <input type="text" id="name" name="name">
+                    <label for="email">Email</label>
+                    <input type="text" id="email" name="email">
+                    <section class="radio-box">
+                        <p>Message Purpose</p>
+                        <input type="radio" id="inquiry" name="purpose" value="general" checked>
+                        <label for="inquiry">General Inquiry</label>
+
+                        <input type="radio" id="reservation" name="purpose" value="reservation">
+                        <label for="reservation">Reservation Question</label>
+
+                        <input type="radio" id="website" name="purpose" value="website">
+                        <label for="website">Website Suggestion</label>
+                    </section>
+                    <label for="message">Message</label>
+                    <textarea type="text" id="message" name="message" placeholder="Type Here"></textarea>
+
+                    <input type="checkbox" id="subscribe" name="subscribe" checked>
+                    <label for="subscribe">Please Subscribe me to the monthly newsletter</label>
+
+
+                    <button type="submit">Get in Touch!</button>
+                </form>
+            </div>
+        </div>
+        <section class="serve">
+            <h3>We Are Here to Serve You</h3>
+            <div class="employee-gallery">
+                <figure>
+                    <img src="images/fig-2-sm.jpg" alt="Thunder Gorge Photo">
+                    <figcaption>Employee Profile</figcaption>
+                </figure>
+                <figure>
+                    <img src="images/fig-3-sm.jpg" alt="Razorback Chute Photo">
+                    <figcaption>Employee Profile</figcaption>
+                </figure>
+                <figure>
+                    <img src="images/fig-4-sm.jpg" alt="Shattered Rock Falls Photo">
+                    <figcaption>Employee Profile</figcaption>
+                </figure>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>©️2025 | Wild West River Rafting | Jason Auger</p>
+        <nav class="socialmedia">
+            <a href="https://facebook.com">
+                <img src="images/facebook-sm.png" alt="Facebook Icon">
+            </a>
+            <a href="https://linkedin.com">
+                <img src="images/linkedin-sm.png" alt="LinkedIn Icon">
+            </a>
+            <a href="https://instagram.com">
+                <img src="images/instagram-sm.png" alt="Instagram Icon">
+            </a>
+        </nav>
+    </footer>
+</body>
+
+</html>
