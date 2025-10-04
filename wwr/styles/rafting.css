@@ -135,7 +135,12 @@ footer {
     color: #000;
     
 }
-
+iframe {
+  width: 350px;
+  height: 300px;
+  border: 0;
+   
+}
 .company-info p {
     margin: 0;
     padding: .1rem;
