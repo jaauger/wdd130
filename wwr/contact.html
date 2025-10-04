@@ -4,8 +4,8 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Contact Us</title>
-    <meta name="Description" content="Jason Auger, WDD130, Contact Us page.">
+    <title>Contact Wild West Rafting Company</title>
+    <meta name="Description" content="Contact us for questions about what we do.">
     <meta name="author" content="Jason Auger">
     <link rel="stylesheet" href="styles/rafting.css">
 </head>
@@ -24,7 +24,7 @@
     </header>
     <main>
         <section class="company-info">
-            <h3>Wild West River Rafting</h3>
+            <h2>Wild West River Rafting</h2>
             <p>123 Main River Street</p>
             <p>Kolob, California</p>
             <p>+1 999 999 9999</p>
@@ -34,34 +34,48 @@
             <div>
                 <iframe
                     src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d41968.05111308223!2d-109.63198183346113!3d38.573075604236706!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2sus!4v1759542902964!5m2!1sen!2sus"
-                    width="300" height="250" style="border:0;" allowfullscreen="" loading="lazy"
+                    width="350" height="300" style="border:0;" allowfullscreen="" loading="lazy"
                     referrerpolicy="no-referrer-when-downgrade">
                 </iframe>
             </div>
             <div>
                 <form>
-                    <label for="name">Name</label>
-                    <input type="text" id="name" name="name">
-                    <label for="email">Email</label>
-                    <input type="text" id="email" name="email">
+                    <div class="name-email">
+                        <div class="form-group">
+                            <label for="name">Name</label>
+                            <input type="text" id="name" name="name" placeholder="Placeholder">
+                        </div>
+                        <div class="form-group">
+                            <label for="email">Email</label>
+                            <input type="text" id="email" name="email" placeholder="Placeholder">
+                            </label>
+                        </div>
+                    </div>
                     <section class="radio-box">
                         <p>Message Purpose</p>
-                        <input type="radio" id="inquiry" name="purpose" value="general" checked>
-                        <label for="inquiry">General Inquiry</label>
-
-                        <input type="radio" id="reservation" name="purpose" value="reservation">
-                        <label for="reservation">Reservation Question</label>
-
-                        <input type="radio" id="website" name="purpose" value="website">
-                        <label for="website">Website Suggestion</label>
+                        <div class="radio-options">
+                            <label>
+                                <input type="radio" id="inquiry" name="purpose" value="general" checked>
+                                General Inquiry
+                            </label>
+                            <label>
+                                <input type="radio" id="reservation" name="purpose" value="reservation">
+                                Reservation Question
+                            </label>
+                            <label>
+                                <input type="radio" id="website" name="purpose" value="website">
+                                Website Suggestion
+                            </label>
                     </section>
                     <label for="message">Message</label>
                     <textarea type="text" id="message" name="message" placeholder="Type Here"></textarea>
 
-                    <input type="checkbox" id="subscribe" name="subscribe" checked>
-                    <label for="subscribe">Please Subscribe me to the monthly newsletter</label>
-
-
+                    <div class="check">
+                        <label>
+                            <input type="checkbox" id="subscribe" name="subscribe" checked>
+                            Please Subscribe me to the monthly newsletter
+                        </label>
+                    </div>
                     <button type="submit">Get in Touch!</button>
                 </form>
             </div>
@@ -70,15 +84,15 @@
             <h3>We Are Here to Serve You</h3>
             <div class="employee-gallery">
                 <figure>
-                    <img src="images/fig-2-sm.jpg" alt="Thunder Gorge Photo">
+                    <img src="images/emp-1.jpg" alt="Thunder Gorge Photo">
                     <figcaption>Employee Profile</figcaption>
                 </figure>
                 <figure>
-                    <img src="images/fig-3-sm.jpg" alt="Razorback Chute Photo">
+                    <img src="images/emp-2.jpg" alt="Razorback Chute Photo">
                     <figcaption>Employee Profile</figcaption>
                 </figure>
                 <figure>
-                    <img src="images/fig-4-sm.jpg" alt="Shattered Rock Falls Photo">
+                    <img src="images/emp-3.jpg" alt="Shattered Rock Falls Photo">
                     <figcaption>Employee Profile</figcaption>
                 </figure>
             </div>

@@ -126,6 +126,10 @@ footer {
 .company-info {    
     text-align: center;    
 }
+.company-info h1 {
+    background-color: none;
+}
+
 .company-info p {
     margin: 0;
     padding: .1rem;
@@ -146,10 +150,54 @@ form {
 
 button {
     margin: .5rem;
-    background-color: royalblue;
+    background-color: rgb(5, 32, 116);
     color: #fff;
     border: none;
-    
+    border-radius: .5rem; 
+    padding: .25rem;   
+}
+.radio-box {
+  display: flex;
+  align-items: flex-start;
+  text-align: center;
+  gap: .1rem;
+  margin: .1rem 0;
+}
+
+.name-email {
+  display: grid;
+  grid-template-columns: auto 1fr; 
+  gap: 0.5rem 1.5rem; 
+  align-items: center;
+  width: 350px; 
+}
+
+.form-group {
+  display: contents; 
+}
+
+.name-email label {
+  font-weight: bold;
+  text-align: left;
+  white-space: nowrap;
+}
+
+.name-email input {
+  width: 100%;
+  padding: 6px 8px;
+  border: 1px solid #aaa;
+  border-radius: 4px;
+}
+
+
+.radio-options {
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+.radio-box label {
+    padding: .25rem;
 }
 .serve {
   grid-column: span 2;
@@ -161,12 +209,14 @@ button {
 .serve h3 {
   margin-bottom: 1rem;
   font-weight: bold;
+  text-align: center;
 }
 
 .employee-gallery {
   display: flex;
   justify-content: center;
-  gap: 2rem;
+  gap: 5rem;
+  
 }
 
 .employee-gallery figure {
@@ -188,14 +238,14 @@ button {
 
 /*_______________________________________________________________________*/
 footer p {
-  font-size: 0.75rem;  /* smaller than normal body text */
-  margin: 0;           /* optional: remove extra space */
-  text-align: center;  /* optional: center it */
+  font-size: 0.75rem;  
+  margin: 0;           
+  text-align: center;  
 }
 
 footer .socialmedia img {
-  width: 25px;   /* adjust this number to the size you want */
-  height: auto;  /* keeps the aspect ratio correct */
-  margin: 0 5px; /* optional: space between icons */
+  width: 25px;   
+  height: auto;  
+  margin: 0 5px; 
   float: right;
 }
