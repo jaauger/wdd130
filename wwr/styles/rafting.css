@@ -127,7 +127,13 @@ footer {
     text-align: center;    
 }
 .company-info h1 {
-    background-color: none;
+    position: relative;
+    top: 0px;
+    margin: 0 auto;
+    text-align: center;
+    background-color: #fff;
+    color: #000;
+    
 }
 
 .company-info p {
